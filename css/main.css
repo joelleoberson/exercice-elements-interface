@@ -19,6 +19,10 @@ html {
   font-size: 16px;
 }
 
+hr {
+  color: #3a5af7;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -46,9 +50,10 @@ video {
   background: #3a5af7;
   color: #fff;
   padding: 12px;
-  margin: 64px;
   border-radius: 10px;
   text-decoration: none;
+  margin: 32px 0px 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .border-radus {
@@ -57,20 +62,62 @@ video {
   padding: 12px;
   border-radius: 24px;
   text-decoration: none;
+  margin: 32px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .plus {
   background: #fff;
   border-radius: 70%;
+  width: 48px;
+  height: 48px;
+  margin: 32px 0px 42px;
+  color: #3a5af7;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.box-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 320px;
+  height: 181px;
 }
 
 nav {
   background: #1c1c1c;
+  font-family: "Roboto", sans-serif;
+  padding: 16px;
+}
+
+nav p {
   color: #fff;
 }
 
 .box {
   background: #fff;
+}
+
+.box p {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
 }
 /* ====================================
 // base rules
